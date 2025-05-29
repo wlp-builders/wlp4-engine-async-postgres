@@ -5,7 +5,7 @@ Made because Swoole's Postgres extension (publicly archived) didn't solve our pr
 
 ## How it works (simplified)
 ```
-     PHP SWOOLE
+   (WLP4) PHP SWOOLE (:9501)
         👍
      [ TCP Client ]
          |
@@ -13,7 +13,7 @@ Made because Swoole's Postgres extension (publicly archived) didn't solve our pr
    ----------------
   |  NODE.JS TCP   |
   |    SERVER      |
-  |  + Pool Mgmt   |
+  |  + Pool (:4000)   |
    ----------------
          |
       (Manages)
@@ -21,7 +21,7 @@ Made because Swoole's Postgres extension (publicly archived) didn't solve our pr
    --------------------
   |  Postgres Pool     |
   |  [🧵][🧵][🧵][🧵]     |
-  |  (Connections)     |
+  |  (Connections) :5432    |
    --------------------
 ```
 
