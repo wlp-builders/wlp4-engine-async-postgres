@@ -11,17 +11,17 @@ Made because Swoole's Postgres extension (publicly archived) didn't solve our pr
          |
          v
    ----------------
-  |  NODE.JS TCP   |
-  |    SERVER      |
-  |  + Pool (:4000)   |
+  |  NODE.JS TCP    |
+  |    SERVER       |
+  |  + Pool (:4000) |
    ----------------
          |
       (Manages)
          v
    --------------------
-  |  Postgres Pool     |
-  |  [🧵][🧵][🧵][🧵]     |
-  |  (Connections) :5432    |
+  |  Postgres Db         |
+  |  [🧵][🧵][🧵][🧵]    |
+  |  (Connections) :5432 |
    --------------------
 ```
 
