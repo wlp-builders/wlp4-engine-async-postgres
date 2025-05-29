@@ -1,5 +1,7 @@
 # wlp4-engine-async-postgres
-Unlock Fast Async Postgres Queries for (WLP4) PHP Swoole with a TCP Server (NodeJS) that uses Pools. 
+Unlock Fast Async Postgres Queries for (WLP4) PHP Swoole with a TCP Server (NodeJS) that uses multiple DB connections simultatiously (Pools). 
+
+Made because Swoole's Postgres extension (publicly archived) didn't solve our problem for WhiteLabelPress V4 - https://reddit.com/r/Whitelabelpress
 
 ## Install & Use
 ```
